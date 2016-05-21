@@ -39,5 +39,22 @@ for (int j=10;j>0;j--){
 	System.out.println("Counting down..."+j);
 }
 System.out.println("Blastoff");
+Date birthday=new Date();
+Calendar shengri=Calendar.getInstance();
+birthday=shengri.getTime();
+//birthday.getMonth();
+//birthday=shengri.getTime();
+//System.out.println(birthday.getTime());
+System.out.println(birthday);
+System.out.println(birthday.toString());
+int month=shengri.get(Calendar.MONTH);
+int day=shengri.get(Calendar.DAY_OF_WEEK);
+System.out.print(month);
+
+Student jess=new Student();
+jess.name="Jess";
+jess.sayHello();
 	}
+
+
 }
