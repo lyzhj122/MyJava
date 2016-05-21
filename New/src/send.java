@@ -50,6 +50,7 @@ public void send(int numOfMails) throws Exception    {
         os.writeBytes("QUIT\r\n");
         message = bufReader.readLine();    
         System.out.println(message);
+        //This code can't run. Maybe something wrong.
         
         System.out.println("Client terminates the connection!");        
     }
