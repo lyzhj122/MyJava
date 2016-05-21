@@ -53,6 +53,7 @@ System.out.print(month);
 
 Student jess=new Student();
 jess.name="Jess";
+jess.name="Jay";
 jess.sayHello();
 	}
 
